@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="https://i.postimg.cc/9fqYVvxh/logo.png" type="image/x-icon">
+</head>
+
+<body>
+    <main>
+        <aside class="sidebar" data-sidebar>
+            <div class="sidebar-info">
+                <figure class="avatar-box">
+                    <img src="pfp.jpg" alt="avatar" width="80">
+                </figure>
+                <div class="info-content">
+                    <h1 class="name" title="Benjamín Turcsányi">Benjamín Turcsányi</h1>
+                    <p class="title">Web Developer</p>
+                </div>
+                <button class="info-more-btn" data-sidebar-btn>
+                    <span>Show Contacts</span>
+                    <ion-icon name="chevron-down"></ion-icon>
+                </button>
+            </div>
+            <div class="sidebar-info-more">
+                <div class="separator"></div>
+                <ul class="contacts-list">
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="mail-outline"></ion-icon>
+                        </div>
+                        <div class="contact-info">
+                            <p class="contact-title">Email</p>
+                            <a href="mailto:ben.turcani@gmail.com" class="contact-link">ben.turcani</a>
+                        </div>
+                    </li>
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="phone-portrait-outline"></ion-icon>
+                        </div>
+                        <div class="contact-info">
+                            <p class="contact-title">Phone</p>
+                            <a href="tel:+421910128398" class="contact-link">+421 910 128 398</a>
+                        </div>
+                    </li>
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="calendar-outline"></ion-icon>
+                        </div>
+                        <div class="contact-info">
+                            <p class="contact-title">Birthday</p>
+                            <time datetime="2005-01-20">January 20, 2005</time>
+                        </div>
+                    </li>
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="location-outline"></ion-icon>
+                        </div>
+                        <div class="contact-info">
+                            <p class="contact-title">Location</p>
+                            <address>Rožňava, SK</address>
+                        </div>
+                    </li>
+                </ul>
+                <div class="separator"></div>
+                <ul class="social-list">
+                    <li class="social-item"><a href="https://github.com/benotur" class="social-link"><ion-icon name="logo-github"></ion-icon></a></li>
+                    <li class="social-item"><a href="https://discordapp.com/users/386592936063926294" class="social-link"><ion-icon name="logo-discord"></ion-icon></a></li>
+                    <li class="social-item"><a href="https://www.instagram.com/ben.trc/" class="social-link"><ion-icon name="logo-instagram"></ion-icon></a></li>
+                </ul>
+            </div>
+        </aside>
+
+        <div class="main-content">
+            <nav class="navbar">
+                <ul class="navbar-list">
+                    <li class="navbar-item"><button class="navbar-link active" data-nav-link>About</button></li>
+                    <li class="navbar-item"><button class="navbar-link" data-nav-link>Resume</button></li>
+                    <li class="navbar-item"><button class="navbar-link" data-nav-link>Portfolio</button></li>
+                    <li class="navbar-item"><button class="navbar-link" data-nav-link>Contact</button></li>
+                </ul>
+            </nav>
+
+            <article class="about active" data-page="about">
+                <header>
+                    <h2 class="h2 article-title">About me</h2>
+                </header>
+                <section class="about-text">
+                    <p>Hey, I’m Ben — a cyber security graduate currently studying at Deutsche Telekom. I’m into
+                        fullstack development, IT, and pretty much anything tech-related. What started as a hobby
+                        turned into something I genuinely enjoy diving deep into, whether it’s coding, breaking
+                        stuff (ethically, of course), or building projects just for the fun of it.</p>
+                    <p>This portfolio is just a place to showcase some of the things I've worked on — no fancy sales
+                        pitch, just stuff I’ve made, learned from, and felt proud of. I like solving problems,
+                        exploring new tech, and occasionally getting obsessed with side projects at 2AM.</p>
+                </section>
+                <section class="service">
+                    <h3 class="h3 service-title">What I'm doing</h3>
+                    <ul class="service-list">
+                        <li class="service-item">
+                            <div class="service-icon-box">
+                                <img src="https://i.postimg.cc/4389jZkP/icon-design.png" alt="icon" width="40">
+                            </div>
+                            <div class="service-content-box">
+                                <h4 class="h4 service-item-title">Web Design</h4>
+                                <p class="service-item-text">The most modern and high-quality design made at a
+                                    professional level.</p>
+                            </div>
+                        </li>
+                        <li class="service-item">
+                            <div class="service-icon-box">
+                                <img src="https://i.postimg.cc/ZqgqrqzG/icon-dev.png" alt="icon" width="40">
+                            </div>
+                            <div class="service-content-box">
+                                <h4 class="h4 service-item-title">Web development</h4>
+                                <p class="service-item-text">High-quality development of sites at the professional
+                                    level.</p>
+                            </div>
+                        </li>
+                        <li class="service-item">
+                            <div class="service-icon-box">
+                                <img src="https://i.postimg.cc/xjLdzYxZ/icon-app.png" alt="icon" width="40">
+                            </div>
+                            <div class="service-content-box">
+                                <h4 class="h4 service-item-title">Mobile apps</h4>
+                                <p class="service-item-text">Professional development of applications for iOS and
+                                    Android.</p>
+                            </div>
+                        </li>
+                        <li class="service-item">
+                            <div class="service-icon-box">
+                                <img src="https://i.postimg.cc/0NL8zHpx/icon-photo.png" alt="icon" width="40">
+                            </div>
+                            <div class="service-content-box">
+                                <h4 class="h4 service-item-title">Photography</h4>
+                                <p class="service-item-text">I make high-quality photos of any category at a
+                                    professional level.</p>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+            </article>
+
+            <article class="resume" data-page="resume">
+                <header>
+                    <h2 class="h2 article-title">Resume</h2>
+                </header>
+                <section class="timeline">
+                    <div class="title-wrapper">
+                        <div class="icon-box"><ion-icon name="book-outline"></ion-icon></div>
+                        <h3 class="h3">Education</h3>
+                    </div>
+                    <ol class="timeline-list">
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">Deutsche Telekom IT Solutions Slovakia</h4>
+                            <span>2025 - NOW</span>
+                            <p class="timeline-text">I’m currently studying here, focusing on cybersecurity and IT.
+                                It’s given me hands-on experience with real-world projects and let me explore both
+                                the technical and practical sides of the field. It’s also helped me grow a lot as a
+                                developer and problem solver.
+                            </p>
+                        </li>
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">Technical and Cybernetic High School of Košice</h4>
+                            <span>2020 - 2025</span>
+                            <p class="timeline-text">I studied at a tech-focused high school where I built a strong
+                                foundation in IT, programming, and cybernetics. It’s where I got into coding,
+                                security, and started taking tech seriously — basically the place that kickstarted
+                                everything I'm into now.</p>
+                        </li>
+                    </ol>
+                </section>
+                <section class="skill">
+                    <h3 class="h3 skills-title">Language Skills</h3>
+                    <ul class="skills-list content-card">
+                        <li class="skills-item">
+                            <div class="title-wrapper">
+                                <h5 class="h5">Slovak</h5>
+                                <data value="100">Native</data>
+                            </div>
+                            <div class="skills-progress-bg">
+                                <div class="skills-progress-fill" style="width: 100%;"></div>
+                            </div>
+                        </li>
+                        <li class="skills-item">
+                            <div class="title-wrapper">
+                                <h5 class="h5">English</h5>
+                                <data value="90">Fluent</data>
+                            </div>
+                            <div class="skills-progress-bg">
+                                <div class="skills-progress-fill" style="width: 90%;"></div>
+                            </div>
+                        </li>
+                        <li class="skills-item">
+                            <div class="title-wrapper">
+                                <h5 class="h5">Czech</h5>
+                                <data value="90">Fluent</data>
+                            </div>
+                            <div class="skills-progress-bg">
+                                <div class="skills-progress-fill" style="width: 90%;"></div>
+                            </div>
+                        </li>
+                        <li class="skills-item">
+                            <div class="title-wrapper">
+                                <h5 class="h5">Polish</h5>
+                                <data value="80">80%</data>
+                            </div>
+                            <div class="skills-progress-bg">
+                                <div class="skills-progress-fill" style="width: 80%;"></div>
+                            </div>
+                        </li>
+                        <li class="skills-item">
+                            <div class="title-wrapper">
+                                <h5 class="h5">Spanish</h5>
+                                <data value="70">70%</data>
+                            </div>
+                            <div class="skills-progress-bg">
+                                <div class="skills-progress-fill" style="width: 70%;"></div>
+                            </div>
+                        </li>
+                        <li class="skills-item">
+                            <div class="title-wrapper">
+                                <h5 class="h5">Russian</h5>
+                                <data value="60">60%</data>
+                            </div>
+                            <div class="skills-progress-bg">
+                                <div class="skills-progress-fill" style="width: 60%;"></div>
+                            </div>
+                        </li>
+                        <li class="skills-item">
+                            <div class="title-wrapper">
+                                <h5 class="h5">German</h5>
+                                <data value="50">50%</data>
+                            </div>
+                            <div class="skills-progress-bg">
+                                <div class="skills-progress-fill" style="width: 50%;"></div>
+                            </div>
+                        </li>
+                        <li class="skills-item">
+                            <div class="title-wrapper">
+                                <h5 class="h5">Japanese</h5>
+                                <data value="30">30%</data>
+                            </div>
+                            <div class="skills-progress-bg">
+                                <div class="skills-progress-fill" style="width: 30%;"></div>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+                <section class="tech-stack">
+                    <h3 class="h3 skills-title">Tech Stack & Tools</h3>
+                    <div class="tech-logos">
+                        <img src="https://cdn.simpleicons.org/python/FFFFFF" alt="Python" title="Python" height="40">
+                        <img src="https://cdn.simpleicons.org/c/FFFFFF" alt="C" title="C" height="40">
+                        <img src="https://cdn.simpleicons.org/cplusplus/FFFFFF" alt="C++" title="C++" height="40">
+                        <img src="https://cdn.simpleicons.org/html5/FFFFFF" alt="HTML5" title="HTML5" height="40">
+                        <img src="https://cdn.simpleicons.org/css/FFFFFF" alt="CSS3" title="CSS3" height="40">
+                        <img src="https://cdn.simpleicons.org/javascript/FFFFFF" alt="JavaScript" title="JavaScript" height="40">
+                        <img src="https://cdn.simpleicons.org/php/FFFFFF" alt="PHP" title="PHP" height="40">
+                        <img src="https://cdn.simpleicons.org/firebase/FFFFFF" alt="Firebase" title="Firebase" height="40">
+                        <img src="https://cdn.simpleicons.org/linux/FFFFFF" alt="Linux" title="Linux" height="40">
+                        <svg width="40" height="40" viewBox="0 0 48 48" fill="none" style="background:#23272A; border-radius:8px; padding:4px;" title="Windows" alt="Windows">
+                            <rect width="48" height="48" rx="10" fill="#23272A" />
+                            <path d="M7 10.5L22.5 8.5V22.5H7V10.5ZM22.5 25.5V39.5L7 37.5V25.5H22.5ZM25.5 8.1L41 6V22.5H25.5V8.1ZM41 25.5V41.9L25.5 39.9V25.5H41Z" fill="white" />
+                        </svg>
+                        <img src="https://cdn.simpleicons.org/arduino/FFFFFF" alt="Arduino" title="Arduino" height="40">
+                        <img src="https://cdn.simpleicons.org/espressif/FFFFFF" alt="ESP32" title="ESP32 / Espressif" height="40">
+                        <!-- Microsoft Word -->
+                        <svg width="40" height="40" viewBox="0 0 48 48" fill="none" style="background:#23272A; border-radius:8px; padding:4px;" title="Word" alt="Word">
+                            <rect width="48" height="48" rx="10" fill="#23272A" />
+                            <rect x="12" y="10" width="24" height="28" rx="3" fill="white" />
+                            <rect x="16" y="14" width="16" height="20" rx="1" fill="#23272A" />
+                            <text x="24" y="32" text-anchor="middle" font-size="10" fill="white" font-family="Arial" font-weight="bold">W</text>
+                        </svg>
+                        <!-- Microsoft Excel -->
+                        <svg width="40" height="40" viewBox="0 0 48 48" fill="none" style="background:#23272A; border-radius:8px; padding:4px;" title="Excel" alt="Excel">
+                            <rect width="48" height="48" rx="10" fill="#23272A" />
+                            <rect x="12" y="10" width="24" height="28" rx="3" fill="white" />
+                            <rect x="16" y="14" width="16" height="20" rx="1" fill="#23272A" />
+                            <text x="24" y="32" text-anchor="middle" font-size="10" fill="white" font-family="Arial" font-weight="bold">X</text>
+                        </svg>
+                        <!-- Microsoft PowerPoint -->
+                        <svg width="40" height="40" viewBox="0 0 48 48" fill="none" style="background:#23272A; border-radius:8px; padding:4px;" title="PowerPoint" alt="PowerPoint">
+                            <rect width="48" height="48" rx="10" fill="#23272A" />
+                            <rect x="12" y="10" width="24" height="28" rx="3" fill="white" />
+                            <rect x="16" y="14" width="16" height="20" rx="1" fill="#23272A" />
+                            <text x="24" y="32" text-anchor="middle" font-size="10" fill="white" font-family="Arial" font-weight="bold">P</text>
+                        </svg>
+                        <img src="https://cdn.simpleicons.org/cisco/FFFFFF" alt="Cisco" title="Cisco" height="40">
+                        <img src="https://cdn.simpleicons.org/wireshark/FFFFFF" alt="Wireshark" title="Wireshark" height="40">
+                        <!-- PuTTY (terminal icon) -->
+                        <svg width="40" height="40" viewBox="0 0 48 48" fill="none" style="background:#23272A; border-radius:8px; padding:4px;" title="PuTTY" alt="PuTTY">
+                            <rect width="48" height="48" rx="10" fill="#23272A" />
+                            <rect x="10" y="14" width="28" height="20" rx="2" fill="white" />
+                            <polyline points="16,22 20,26 16,30" fill="none" stroke="#23272A" stroke-width="2" />
+                            <line x1="24" y1="30" x2="32" y2="30" stroke="#23272A" stroke-width="2" />
+                        </svg>
+                        <!-- Packet Tracer (network icon) -->
+                        <svg width="40" height="40" viewBox="0 0 48 48" fill="none" style="background:#23272A; border-radius:8px; padding:4px;" title="Packet Tracer" alt="Packet Tracer">
+                            <rect width="48" height="48" rx="10" fill="#23272A" />
+                            <circle cx="24" cy="24" r="7" fill="white" />
+                            <circle cx="12" cy="12" r="3" fill="white" />
+                            <circle cx="36" cy="12" r="3" fill="white" />
+                            <circle cx="12" cy="36" r="3" fill="white" />
+                            <circle cx="36" cy="36" r="3" fill="white" />
+                            <line x1="24" y1="24" x2="12" y2="12" stroke="white" stroke-width="2" />
+                            <line x1="24" y1="24" x2="36" y2="12" stroke="white" stroke-width="2" />
+                            <line x1="24" y1="24" x2="12" y2="36" stroke="white" stroke-width="2" />
+                            <line x1="24" y1="24" x2="36" y2="36" stroke="white" stroke-width="2" />
+                        </svg>
+                        <!-- Windows Server (server icon) -->
+                        <svg width="40" height="40" viewBox="0 0 48 48" fill="none" style="background:#23272A; border-radius:8px; padding:4px;" title="Windows Server" alt="Windows Server">
+                            <rect width="48" height="48" rx="10" fill="#23272A" />
+                            <rect x="12" y="14" width="24" height="6" rx="2" fill="white" />
+                            <rect x="12" y="22" width="24" height="6" rx="2" fill="white" />
+                            <rect x="12" y="30" width="24" height="6" rx="2" fill="white" />
+                            <circle cx="16" cy="17" r="1" fill="#23272A" />
+                            <circle cx="16" cy="25" r="1" fill="#23272A" />
+                            <circle cx="16" cy="33" r="1" fill="#23272A" />
+                        </svg>
+                        <img src="https://cdn.simpleicons.org/nodedotjs/FFFFFF" alt="NodeJS" title="NodeJS" height="40">
+                        <img src="https://cdn.simpleicons.org/electron/FFFFFF" alt="Electron" title="Electron" height="40">
+                        <img src="https://cdn.simpleicons.org/react/FFFFFF" alt="React" title="React" height="40">
+                        <img src="https://cdn.simpleicons.org/vuedotjs/FFFFFF" alt="VueJS" title="VueJS" height="40">
+                        <img src="https://cdn.simpleicons.org/androidstudio/FFFFFF" alt="Android Studio" title="Android Studio" height="40">
+                        <img src="https://img.icons8.com/ios-filled/50/ffffff/java-coffee-cup-logo.png" alt="Java" title="Java" height="40" style="background:#23272A; border-radius:8px;">
+                        <!-- VS Code -->
+                        <svg width="40" height="40" viewBox="0 0 48 48" fill="none" style="background:#23272A; border-radius:8px; padding:4px;" title="VS Code" alt="VS Code">
+                            <rect width="48" height="48" rx="10" fill="#23272A" />
+                            <polygon points="13,36 8,31 24,15 40,31 35,36 24,25" fill="white" />
+                            <polygon points="24,25 35,36 40,31 24,15" fill="white" opacity="0.7" />
+                        </svg>
+                        <img src="https://cdn.simpleicons.org/jetbrains/FFFFFF" alt="JetBrains" title="JetBrains" height="40">
+                    </div>
+                </section>
+            </article>
+
+            <article class="portfolio" data-page="portfolio">
+                <header>
+                    <h2 class="h2 article-title">Portfolio</h2>
+                </header>
+                <section class="projects">
+                    <div class="filter-select-box">
+                        <button class="filter-select" data-select>
+                            <div class="select-value" data-select-value>Select Category</div>
+                        </button>
+                    </div>
+                    <ul class="project-list">
+                        <li class="project-item active" data-filter-item data-category="web development">
+                            <a href="https://verbify-app.netlify.app/">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+                                    <img src="verbify-preview.png" alt="verbify" loading="lazy">
+                                </figure>
+                                <h3 class="project-title">Verbify</h3>
+                                <p class="project-category">Web Application</p>
+                            </a>
+                        </li>
+                        <li class="project-item active" data-filter-item data-category="web development">
+                            <a href="https://wander-project.netlify.app/">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+                                    <img src="wander-preview.png" alt="wander" loading="lazy">
+                                </figure>
+                                <h3 class="project-title">Wander</h3>
+                                <p class="project-category">Web Application</p>
+                            </a>
+                        </li>
+                    </ul>
+                </section>
+            </article>
+
+            <article class="contact" data-page="contact">
+                <header>
+                    <h2 class="h2 article-title">Contact</h2>
+                </header>
+                <section class="contact-form">
+                    <h3 class="h3 form-title">Contact Form</h3>
+                    <form action="#" class="form" data-form>
+                        <div class="input-wrapper">
+                            <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+                            <input type="email" name="email" class="form-input" placeholder="Email Address" required data-form-input>
+                        </div>
+                        <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input=""></textarea>
+                        <button class="form-btn" type="submit" disabled data-form-btn>
+                            <ion-icon name="paper-plane"></ion-icon>
+                            <span>Send Message</span>
+                        </button>
+                    </form>
+                </section>
+            </article>
+        </div>
+    </main>
+    <script src="script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
